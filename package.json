@@ -1,0 +1,18 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mikro-orm/sqlite": "^4.5.0",
+    "@tensei/auth": "^0.7.29",
+    "@tensei/core": "^0.7.29",
+    "@tensei/graphql": "^0.7.29",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
